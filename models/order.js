@@ -6,6 +6,13 @@ var orderSchema = new mongoose.Schema({
         type: String,
         required: true
     },
+    products: {
+        type: Array,
+    },
+    total: {
+        type: Number,
+        required: true
+    },
     deleted: {
         type: Boolean,
         default: false
