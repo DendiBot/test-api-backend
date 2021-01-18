@@ -2,10 +2,6 @@
 var mongoose = require('mongoose');
 
 var coffeeSchema = new mongoose.Schema({
-    itemName: {
-        type: String,
-        required: true
-    },
     price: {
         type: Number,
         required: true
